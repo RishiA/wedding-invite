@@ -28,11 +28,18 @@ footer p { text-align: center;}
 }
 .border{position : absolute;}
 .wedding-couple{position: relative; top : 60px; left: -170px;}
+<<<<<<< HEAD
 #content{
             background: url("../img/wedding-couple.png") no-repeat  center;
             background-size: 20%;
 
             /*position: absolute;*/
+=======
+.banner-img{
+            background: url("../img/wedding-couple.png") no-repeat  center;
+            background-size: 20%;
+
+>>>>>>> mugsk/master
             margin-top: 130px;
             width: auto;
             height: 1000px;
@@ -68,7 +75,10 @@ footer p { text-align: center;}
                     height: 100px;
                     display: inline-block;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> mugsk/master
 
 
 
