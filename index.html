@@ -17,6 +17,10 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+            #snowflakeContainer {
+                  position: absolute;
+                  pointer-events: none;
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,6 +28,11 @@
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
         <![endif]-->
+
+        <!-- <script src="js/fallingsnow-canvas.js"></script>
+        // <script src="js/fallingsnow_v6.js"></script>
+        // <script src="http://www.kirupa.com/js/prefixfree.min.js"></script> -->
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -34,14 +43,17 @@
       <div class="container">
           <div class="row">
           <div class="col-md-4 col-md-offset-4">      
-          <a class="" href="#"> <img src="img/orange-red-scroll-md.png"></a>
+          <a class="border" href="#"> <img src="img/orange-red-scroll-md.png">  </a>
          </div>      
           </div> 
      </div>  
     </nav>
-    <div class="filmstrip"> 
-        <img src="img/black-film-strip-md.png">    
+    <canvas id="snowflakeContainer"></canvas>
+    <div id="content">
     </div>
+    <script src="js/fallingsnow-canvas.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <div class="banner-text"> <p><span class="red">Mugs</span> <span class="heart-img"></span> <span class="yellow">Rishi</span></p></div>    
  
 
       <footer>

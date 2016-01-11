@@ -1,9 +1,14 @@
 /* ==========================================================================
     Custom styles
    ========================================================================== */
+@font-face {
+  font-family: 'cursive';
+  src: url('../fonts/im-fell-french-canon.italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 body{
 
 }
+
 .navbar a{ text-align: center;
 }
 footer{
@@ -13,17 +18,56 @@ footer{
     width: 100%;
 }
 footer p { text-align: center;}
-.yellow{
-   width: 400px;
-  height: 300px;    
-    border-radius: 25px;
+.filmstrip{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 
+}
+.border{position : absolute;}
+.wedding-couple{position: relative; top : 60px; left: -170px;}
+#content{
+            background: url("../img/wedding-couple.png") no-repeat  center;
+            background-size: 20%;
+
+            /*position: absolute;*/
+            margin-top: 130px;
+            width: auto;
+            height: 1000px;
+     
+        z-index: 10;
+    
+    }
+.banner-text{ display: inline-block; top: -1200px; position: relative; height: 1000px;
+    width: 100%; border: 120px solid #D5CEA6;
+
+            border-left: 220px solid #AD0C0C;
+            border-right: 220px solid #FF7F00;
+            border-bottom-color: transparent;
+    z-index: 1000;
+}
+.banner-text p{
+    font-size: 4.5em;
+    color: #fff;
+    font-family: cursive, Arial, sans-serif;
+    font-style: italic;
+    position: relative;
+    top: 770px;
+    text-align: center;
+    opacity: 0.6;
 }
 
 
-
-
-
+.yellow{color: #FF7F00;}
+.red{color: #AD0C0C;}
+.heart-img{ background: url('../img/heart.png') no-repeat bottom center;
+                        background-size: 100px;
+                        width: 100px;
+                    height: 100px;
+                    display: inline-block;
+}
 
 
 
